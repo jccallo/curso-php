@@ -1,9 +1,9 @@
 <?php
 
 // modificadores de acceso: public, protected y private
-# public: se puede acceder a la propiedad o al método desde cualquier lugar. Esto es predeterminado 
-# protegido: se puede acceder a la propiedad o método dentro de la clase y mediante clases derivadas de esa clase 
-# privado: SOLO se puede acceder a la propiedad o al método dentro de la clase
+# public: se puede acceder a propiedades o métodos desde dentro de la clase, clases derivadas y afuera). Esto es predeterminado 
+# protegido: se puede acceder a propiedades o métodos desde dentro de la clase y clases derivadas de esa clase, no desde afuera
+# privado: se puede acceder a propiedades o métodos desde dentro de la clase
 
 // definimos la clase Persona
 class Persona {
